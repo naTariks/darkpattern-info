@@ -5,12 +5,12 @@
 @import "node_modules/bootstrap/scss/functions";
 
 // 2. Include any default variable overrides here
-$primary: #DCBE47;
-$secondary: #09112F;
+$primary: #121212;
+$secondary: #f0f0f0;
 
 $theme-colors: (
   "primary": $primary,
-  "secondary": $secondary
+  "secondary": $secondary,
 );
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
@@ -21,8 +21,8 @@ $theme-colors: (
 
 // Create your own map
 $custom-colors: (
-  "background": #080F2B,
-  "accent": #D7B52D
+  "card": #333333,
+  "accent": #EDBB3B,
 );
 
 // Merge the maps
