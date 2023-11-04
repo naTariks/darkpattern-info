@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class LandingPageComponent {
 
+  scrollSmoothTo(elementId: string) {
+    const element: any = document.getElementById(elementId);
+    element.scrollIntoView({
+      block: 'start',
+      behavior: 'smooth'
+    });
+  }
 }
