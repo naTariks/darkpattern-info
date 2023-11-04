@@ -4,16 +4,20 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { LandingPageComponent } from './modules/components/landing-page/landing-page.component';
+import { LandingPageComponent } from './modules/selections/landing-page/landing-page.component';
 
 import {NgOptimizedImage} from "@angular/common";
-import { InfoComponent } from './modules/components/info/info.component';
+import { InfoComponent } from './modules/selections/info/info.component';
+import { SlideshowComponent } from './modules/components/slideshow/slideshow.component';
+import { NavbarComponent } from './modules/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    InfoComponent
+    InfoComponent,
+    SlideshowComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
