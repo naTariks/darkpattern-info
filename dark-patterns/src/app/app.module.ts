@@ -9,6 +9,7 @@ import {NgOptimizedImage} from "@angular/common";
 import { InfoComponent } from './modules/components/info/info.component';
 import { ArtenCarouselComponent } from './modules/components/arten-carousel/arten-carousel.component';
 import { ArtenCardComponent } from './modules/components/arten-card/arten-card.component';
+import { NavbarComponent } from './modules/components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ArtenCardComponent } from './modules/components/arten-card/arten-card.c
     LandingPageComponent,
     InfoComponent,
     ArtenCarouselComponent,
-    ArtenCardComponent
+    ArtenCardComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
