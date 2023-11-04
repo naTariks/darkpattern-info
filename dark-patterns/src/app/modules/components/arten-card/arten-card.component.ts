@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-arten-card',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class ArtenCardComponent {
 
+  constructor(private router: Router) {
+  }
+
+  openDarkPattern() {
+    //this.router.navigate(['pattern', this.pattern.id]);
+  }
 }

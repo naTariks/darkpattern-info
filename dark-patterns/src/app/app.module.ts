@@ -10,6 +10,7 @@ import { InfoComponent } from './modules/components/info/info.component';
 import { ArtenCarouselComponent } from './modules/components/arten-carousel/arten-carousel.component';
 import { ArtenCardComponent } from './modules/components/arten-card/arten-card.component';
 import { NavbarComponent } from './modules/components/navbar/navbar.component';
+import { DpDetailComponent } from './modules/components/dp-detail/dp-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { NavbarComponent } from './modules/components/navbar/navbar.component';
     InfoComponent,
     ArtenCarouselComponent,
     ArtenCardComponent,
-    NavbarComponent
+    NavbarComponent,
+    ArtenCardComponent,
+    DpDetailComponent
   ],
   imports: [
     BrowserModule,
