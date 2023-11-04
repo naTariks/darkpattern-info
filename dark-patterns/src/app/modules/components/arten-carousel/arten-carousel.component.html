@@ -1,0 +1,17 @@
+<div class="bg-background mb-4">
+  <h1 class="text-white">{{ title }}</h1>
+  <div class="container mt-4">
+    <ngb-carousel [showNavigationIndicators]="false" [interval]="0" class="d-flex justify-content-center bg-primary rounded-5 p-4">
+      <ng-template ngbSlide class="">
+        <app-arten-card></app-arten-card>
+      </ng-template>
+      <ng-template ngbSlide class="d-flex justify-content-center">
+        <app-arten-card></app-arten-card>
+      </ng-template>
+      <ng-template ngbSlide>
+        <app-arten-card></app-arten-card>
+      </ng-template>
+    </ngb-carousel>
+  </div>
+</div>
+
