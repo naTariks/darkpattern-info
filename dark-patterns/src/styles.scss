@@ -1,4 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 
 /* Importing Bootstrap SCSS file. */
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+$primary: #DCBE47;
+$secondary: #09112F;
+$accent: #D7B52D;
+$background: #080F2B;

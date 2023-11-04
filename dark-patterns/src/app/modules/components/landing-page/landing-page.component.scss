@@ -1,0 +1,21 @@
+
+h1{
+  font-size: 15rem;
+}
+.landing-img{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: url("../../../../assets/images/landing-img.jpg") no-repeat center;
+}
+
+.btn-scroll-down{
+  position: absolute;
+  bottom: 5rem;
+  font-size: 5rem;
+  border: 2px solid white;
+  border-radius: 25%;
+}
