@@ -11,3 +11,30 @@ $background: #080F2B;
 
 /* Importing Bootstrap SCSS file. */
 @import 'bootstrap/scss/bootstrap';
+
+
+@media screen and (min-width: 786px) {
+    button.carousel-control-next{
+        padding-left: 70px !important;
+    } 
+    
+    button.carousel-control-prev{
+        padding-right: 70px !important;
+    } 
+}
+
+button.carousel-control-next{
+    padding-left: 10px;
+} 
+
+button.carousel-control-prev{
+    padding-right: 10px;
+} 
+
+.carousel-inner{
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
+
+
+
