@@ -1,0 +1,17 @@
+<div *ngIf="jsonData">
+    <ng-container *ngFor="let section of jsonData">
+        <ng-container *ngIf="section.type === 'LANDING'; else infoSection">
+            <app-landing-page></app-landing-page>
+        </ng-container>
+        <ng-template #infoSection>
+            <ng-container *ngIf="true">
+
+            </ng-container>
+            <app-info [hasSlideshow]="false"></app-info>
+        </ng-template>
+    </ng-container>
+
+    <app-landing-page></app-landing-page>
+    <app-info [hasSlideshow]="false"></app-info>
+    <app-info [hasSlideshow]="true"></app-info>
+</div>

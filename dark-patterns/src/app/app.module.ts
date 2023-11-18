@@ -10,6 +10,9 @@ import {NgOptimizedImage} from "@angular/common";
 import { InfoComponent } from './modules/selections/info/info.component';
 import { SlideshowComponent } from './modules/components/slideshow/slideshow.component';
 import { NavbarComponent } from './modules/components/navbar/navbar.component';
+import { WebsiteWrapperComponent } from './modules/website-wrapper/website-wrapper.component';
+import { DataService } from './modules/service/data.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -17,13 +20,22 @@ import { NavbarComponent } from './modules/components/navbar/navbar.component';
     LandingPageComponent,
     InfoComponent,
     SlideshowComponent,
-    NavbarComponent
+    NavbarComponent,
+    WebsiteWrapperComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
-    NgOptimizedImage
+    NgOptimizedImage,
+    HttpClientModule
+  ],
+  exports: [
+    LandingPageComponent,
+    InfoComponent,
+    SlideshowComponent,
+    NavbarComponent,
+    WebsiteWrapperComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

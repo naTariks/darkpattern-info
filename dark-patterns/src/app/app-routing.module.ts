@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {LandingPageComponent} from "./modules/selections/landing-page/landing-page.component";
+import { WebsiteWrapperComponent } from './modules/website-wrapper/website-wrapper.component';
 
 const routes: Routes = [
-  { path: '', component: LandingPageComponent},
+  { path: '', component: WebsiteWrapperComponent},
   {path: '**', redirectTo: ''}
 ];
 

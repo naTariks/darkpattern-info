@@ -1,0 +1,50 @@
+{
+    "sections": [
+        {
+            "title": "Dark Patterns",
+            "type": "LANDING"
+        },
+        {
+            "title": "Second section title name",
+            "content": "Diesdas",
+            "type": "INFO"
+        },
+        {
+            "title": "Dark Patterns Arten",
+            "type": "INFO",
+            "patterns": [
+                { 
+                    "patternName": "Sneak into basket",
+                    "shortDescription": "Dangerous dark pattern which causes ...",
+                    "__comment__": "all other properties a pattern has ... following below"
+                },
+                {
+                    "patternName": "Diesdas",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef"
+                },
+                {
+                    "patternName": "Diesdas",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef"
+                },
+                {
+                    "patternName": "Diesdas",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef"
+                },
+                {
+                    "patternName": "Diesdas",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef"
+                }
+            ]
+        },
+        {
+            "title": "Third section",
+            "content": "asdasdasa adadasda da d ",
+            "type": "INFO"
+        },
+        {
+            "title": "Fifth section",
+            "content": "asdasdasd adasdas a adasdsa",
+            "type": "INFO"
+        }
+    ]
+}
