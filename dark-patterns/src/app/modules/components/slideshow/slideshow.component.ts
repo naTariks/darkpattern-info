@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -7,10 +7,11 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./slideshow.component.scss']
 })
 export class SlideshowComponent {
+	@Input() patterns: any[] = [];
 
-	//TODO: Get Data from .json;
-	//		Loop through Data in slideshow
-	//		Each Element <ng-template ngbSlide> will be a new .commponent.html
+	//TODO: Get .json Data from info as Input();
+	//		Loop through Data in slideshow;
+	//		Each Element <ng-template ngbSlide> will be a new .commponent.html;
 
 	constructor(config: NgbCarouselConfig) {
 		// customize default values of carousels used by this component tree
@@ -18,5 +19,9 @@ export class SlideshowComponent {
 		config.wrap = false;
 		config.keyboard = false;
 		config.pauseOnHover = false;
+  }
+
+  ngOnInit(){
+	console.log(this.patterns);
   }
 }

@@ -15,8 +15,9 @@ export class WebsiteWrapperComponent {
 
   ngOnInit() {
     this.dataService.getJsonData().subscribe((data: any) => {
-      this.jsonData = data
+      this.jsonData = data.sections
     })
   }
+
 
 }

@@ -1,18 +1,12 @@
-<div class="vh-100" [ngClass]="{'bg-primary': !hasSlideshow, 'bg-dark': hasSlideshow}">
-  <app-slideshow *ngIf="hasSlideshow; else textTemplate"></app-slideshow>
+<div class="vh-100" [ngClass]="{'bg-primary': !section.patterns, 'bg-dark': section.patterns}">
+  <ng-container *ngIf="section.patterns; else textTemplate">
+    <app-slideshow [patterns]="section.patterns"></app-slideshow>
+  </ng-container>
   <ng-template #textTemplate>
+    <h1 class="text-center">{{ section.title }}</h1>
     <div id="div-info" class="p-5">
       <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-        sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-        consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-        praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
+        {{ section.content }}
       </p>
     </div>
   </ng-template>

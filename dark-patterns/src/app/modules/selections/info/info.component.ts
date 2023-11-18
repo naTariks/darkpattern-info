@@ -9,11 +9,9 @@ export class InfoComponent {
   //TODO: Inject .json Data via Service
   //      Pass .json Data to Slideshow if(hasSlideshow)
 
-  @Input() hasSlideshow: Boolean = true;
+  @Input() section: {title: string, content: string, type: string, patterns?: any[]} = {title: "", content: "", type: ""};
 
-  
   ngOnInit(){
-    console.log(this.hasSlideshow);
     
   }
 
