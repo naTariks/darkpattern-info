@@ -10,6 +10,7 @@ import {NgOptimizedImage} from "@angular/common";
 import { InfoComponent } from './modules/selections/info/info.component';
 import { SlideshowComponent } from './modules/components/slideshow/slideshow.component';
 import { NavbarComponent } from './modules/components/navbar/navbar.component';
+import { ArtenCardComponent } from './modules/components/arten-card/arten-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { NavbarComponent } from './modules/components/navbar/navbar.component';
     LandingPageComponent,
     InfoComponent,
     SlideshowComponent,
-    NavbarComponent
+    NavbarComponent,
+    ArtenCardComponent
   ],
   imports: [
     BrowserModule,

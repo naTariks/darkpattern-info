@@ -1,7 +1,8 @@
 <div class="vh-100" [ngClass]="{'bg-primary': !hasSlideshow, 'bg-dark': hasSlideshow}">
   <app-slideshow *ngIf="hasSlideshow; else textTemplate"></app-slideshow>
   <ng-template #textTemplate>
-    <div id="div-info" class="p-5">
+    <div id="div-info" class="container p-5">
+      <app-navbar title="Was sind Dark Patterns"></app-navbar>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
