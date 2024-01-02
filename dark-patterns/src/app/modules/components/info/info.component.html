@@ -1,4 +1,4 @@
-<div class="vh-100" [ngClass]="{'bg-primary': !hasSlideshow, 'bg-dark': hasSlideshow}">
+<div class="vh-100" [ngClass]="{'bg-primary': !hasSlideshow, 'bg-secondary': hasSlideshow}">
   <app-slideshow *ngIf="hasSlideshow; else textTemplate"></app-slideshow>
   <ng-template #textTemplate>
     <div id="div-info" class="container p-5">
