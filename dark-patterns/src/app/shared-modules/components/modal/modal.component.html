@@ -1,13 +1,13 @@
-<ng-template #modalContent let-modal>
+<ng-template #modal>
   <div class="modal-content">
     <div class="d-flex justify-content-end">
-      <button type="button" class="btn me-4 mt-4 p-0" (click)="modal.dismiss()">
+      <button type="button" class="btn me-4 mt-4 p-0" (click)="close()">
         <span class="material-symbols-outlined fs-2 text-accent">close</span>
       </button>
     </div>
     <div class="container px-5">
       <div class="modal-header d-flex justify-content-center border-0">
-        <h1 class="modal-title">Modal title</h1>
+        <h1 class="modal-title">{{modalTitle}}</h1>
       </div>
       <ng-content></ng-content>
     </div>

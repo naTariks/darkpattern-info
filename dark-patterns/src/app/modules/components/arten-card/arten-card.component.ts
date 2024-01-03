@@ -1,4 +1,5 @@
-import {Component} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {ModalComponent} from "../../../shared-modules/components/modal/modal.component";
 
 @Component({
   selector: 'app-arten-card',
@@ -7,4 +8,9 @@ import {Component} from '@angular/core';
 })
 export class ArtenCardComponent {
 
+  @ViewChild('modal') private modalComponent?: ModalComponent
+
+  open(): void {
+    return this.modalComponent?.open();
+  }
 }

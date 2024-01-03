@@ -2,11 +2,11 @@
   <div class="card-body text-center">
     <h2 class="card-title fw-bold mb-3 text-secondary">DK1</h2>
     <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a class="btn btn-accent fw-bold">CLICK ME</a>
+    <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
   </div>
 </div>
 
-<app-modal #modalComponent [modalTitle]="'Die Das Ananas'">
+<app-modal #modal [modalTitle]="'Die Das Ananas'">
   <app-modal-body>
     <div class="modal-body">
       <p>
