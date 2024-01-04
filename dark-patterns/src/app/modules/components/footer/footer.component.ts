@@ -1,4 +1,5 @@
-import {Component, TemplateRef, ViewChild} from '@angular/core';
+import {Component, ViewChild} from '@angular/core';
+import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 import {ModalComponent} from "../../../shared-modules/components/modal/modal.component";
 
 @Component({
@@ -7,13 +8,15 @@ import {ModalComponent} from "../../../shared-modules/components/modal/modal.com
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent {
-/*
-  @ViewChild('modalAbout') modalAbout?: TemplateRef<any>;
-  @ViewChild('modalImpressum') modalImpressum?: TemplateRef<any>;*/
-  private modalComponent?: ModalComponent
+  @ViewChild('infoModal') private modalComponent?: ModalComponent
 
-  open(content: any) {
-    return this.modalComponent?.openFullscreen(content);
+  selectedInfo: string = '';
+
+  constructor(private modalService: NgbModal) {
   }
 
+  open(type: string) {
+    this.selectedInfo = type;
+    return this.modalService.open(this.modalComponent, { fullscreen: true });
+  }
 }
