@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'app-info',
@@ -11,10 +11,10 @@ export class InfoComponent {
 
   @Input() hasSlideshow: Boolean = true;
 
-  
+
   ngOnInit(){
     console.log(this.hasSlideshow);
-    
+
   }
 
 }

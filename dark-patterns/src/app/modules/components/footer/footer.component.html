@@ -1,35 +1,46 @@
 <div class="bg-accent py-2">
   <footer class="d-flex flex-wrap justify-content-between align-items-center container my-2">
-    <p class="col-md-4 mb-0 text-muted">© 2024 Die Baguetten gefangen in der Dunkelheit</p>
+    <p class="col-md-4 mb-0 text-card">© 2024 Die Baguetten gefangen in der Dunkelheit</p>
 
     <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
       <img ngSrc="assets/images/logo.svg" alt="Logo" height="40" width="40">
     </a>
 
     <ul class="nav col-md-4 justify-content-end">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-      <li class="nav-item"><button (click)="open('about')" class="nav-link px-2 text-muted">About</button></li>
-      <li class="nav-item"><button (click)="open('impressum')" class="nav-link px-2 text-muted">Impressum</button></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-card footer-hover">Home</a></li>
+      <li class="nav-item"><button (click)="open('about')" class="nav-link px-2 text-card footer-hover">About</button></li>
+      <li class="nav-item"><button (click)="open('impressum')" class="nav-link px-2 text-card footer-hover">Impressum</button></li>
     </ul>
   </footer>
 </div>
 <ng-template #infoModal>
   <app-modal *ngIf="selectedInfo === 'about'" [modalTitle]="'About'">
     <app-modal-body>
-      <div class="modal-body">
-        <p>
-            Diese Website wurde ist der Praxistransfer unserer interdisziplinären Projektarbeit!
-        </p>
-      </div>
+      <p>
+          Diese Website wurde im Zusammenhang unserer interdisziplinären Projektarbeit erstellt. Unser Ziel ist es, die Menschen auf
+          Dark Patterns in Onlineshops aufmerksam zu machen und sie darüber aufzuklären, da Vielen die Existenz der Dark Patterns unbekannt ist.
+      </p>
     </app-modal-body>
   </app-modal>
 
   <app-modal  *ngIf="selectedInfo === 'impressum'" [modalTitle]="'Impressum'">
     <app-modal-body>
-      <div class="modal-body">
-        <p>
-          Dies ist unser Impressum!
-        </p>
+      <div>
+        <h3>Verwendete Sourcen:</h3>
+        <div class="d-flex flex-column">
+          <a class="text-decoration-none impressum-hover" href="https://getbootstrap.com/" target="_blank">
+            <i class="bi bi-bootstrap-fill impressum-icon-hover"></i> Bootstrap v5.3 & Bootstrap Icons v1.11
+          </a>
+          <a class="text-decoration-none impressum-hover" href="https://ng-bootstrap.github.io/#/home" target="_blank">
+            <i class="bi bi-bootstrap-fill impressum-icon-hover"></i> Ng-Bootstrap v16
+          </a>
+          <a class="text-decoration-none impressum-hover" href="https://github.com/" target="_blank">
+            <i class="bi bi-github impressum-icon-hover"></i> GitHub
+          </a>
+          <a class="text-decoration-none impressum-hover" href="https://www.pexels.com/photo/black-and-white-photography-of-sand-2387819/" target="_blank">
+            <i class="bi bi-image impressum-icon-hover"></i> Startbild von Adrien Olichon
+          </a>
+        </div>
       </div>
     </app-modal-body>
   </app-modal>
