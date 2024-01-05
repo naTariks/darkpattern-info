@@ -1,4 +1,4 @@
-import {Component, ViewChild} from '@angular/core';
+import {Component, ViewChild, inject} from '@angular/core';
 import {ModalComponent} from "../../../shared-modules/components/modal/modal.component";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 
@@ -8,7 +8,6 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
   styleUrls: ['./arten-card.component.scss']
 })
 export class ArtenCardComponent {
-
   @ViewChild('modal') private modalComponent?: ModalComponent
 
   constructor(private modalService: NgbModal) {
