@@ -1,4 +1,4 @@
-import {Component, Input} from '@angular/core';
+import {Component, HostListener, Input} from '@angular/core';
 
 @Component({
   selector: 'app-info',
@@ -10,11 +10,16 @@ export class InfoComponent {
   //      Pass .json Data to Slideshow if(hasSlideshow)
 
   @Input() hasSlideshow: Boolean = true;
+  innerWidth: number;
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
+  }
 
 
   ngOnInit(){
     console.log(this.hasSlideshow);
-
+    this.onResize();
   }
 
 }
