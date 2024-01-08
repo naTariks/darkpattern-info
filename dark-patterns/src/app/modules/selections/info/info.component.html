@@ -1,4 +1,4 @@
-<div [ngClass]="[hasSlideshow && innerWidth < 992 ? '': 'vh-100', !hasSlideshow ?  'bg-primary': 'bg-secondary']">
+<div [ngClass]="[innerWidth < 992 ? '': 'vh-100', !hasSlideshow ?  'bg-primary': 'bg-secondary']">
   <app-slideshow *ngIf="hasSlideshow; else textTemplate"></app-slideshow>
   <ng-template #textTemplate>
     <div id="div-info" class="container p-5">

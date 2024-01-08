@@ -1,4 +1,4 @@
-<div class="vh-100 bg-secondary">
+<div class="bg-secondary" [ngClass]="innerWidth < 992 ? '': 'vh-100'">
   <div class="container p-5">
     <app-navbar title="Rechtliche Grundlagen"></app-navbar>
     <p class="text-primary">
