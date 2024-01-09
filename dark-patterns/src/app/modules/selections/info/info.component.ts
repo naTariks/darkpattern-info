@@ -1,20 +1,20 @@
-import { Component, Input } from '@angular/core';
+import {Component, HostListener, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-info',
   templateUrl: './info.component.html',
   styleUrls: ['./info.component.scss']
 })
-export class InfoComponent {
-  //TODO: Inject .json Data via Service
-  //      Pass .json Data to Slideshow if(hasSlideshow)
+export class InfoComponent implements OnInit{
 
   @Input() hasSlideshow: Boolean = true;
-
-  
-  ngOnInit(){
-    console.log(this.hasSlideshow);
-    
+  innerWidth: number;
+  @HostListener('window:resize', ['$event'])
+  onResize() {
+    this.innerWidth = window.innerWidth;
   }
 
+  ngOnInit(){
+    this.onResize();
+  }
 }

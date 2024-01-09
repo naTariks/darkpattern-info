@@ -1,54 +1,25 @@
-<div class="h-100 d-flex align-items-center">
-    <ngb-carousel class="w-100 py-5">
-        <ng-template ngbSlide>
-            <div class="row justify-content-center">
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-            </div>
-        </ng-template>
-        <ng-template ngbSlide>
-            <div class="row justify-content-center">
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-                <div class="col-4 card bg-dark border border-light m-3" style="width: 18rem;">
-                    <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary"><span class="text-dark">Go somewhere</span></a>
-                    </div>
-                </div>
-            </div>
-        </ng-template>
+<div class="p-3">
+  <app-navbar title="Dark Patterns Arten"></app-navbar>
+  <div class="container p-0 pt-4 h-100 d-flex align-items-center">
+    <ngb-carousel [showNavigationIndicators]="false" [interval]="0" class="d-flex justify-content-center bg-primary rounded-5 w-100 py-5">
+      <ng-template ngbSlide>
+        <div class="row justify-content-center gap-5">
+          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+        </div>
+      </ng-template>
+      <ng-template ngbSlide>
+        <div class="row justify-content-center gap-5">
+          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+        </div>
+      </ng-template>
     </ngb-carousel>
+  </div>
 </div>
+
+
+
+<!--          TODO: something like this for the different dark patterns-->
+<!--      <app-fruit-info [fruit]="selectedFruit"></app-fruit-info>-->

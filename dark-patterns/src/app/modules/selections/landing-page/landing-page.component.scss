@@ -1,7 +1,7 @@
-
 h1{
-  font-size: 15rem;
+  font-size: 11vw;
 }
+
 .landing-img{
   display: flex;
   overflow: hidden;
@@ -14,8 +14,20 @@ h1{
 
 .btn-scroll-down{
   position: absolute;
-  bottom: 5rem;
-  font-size: 5rem;
+  font-size: 4vh;
   border: 2px solid white;
   border-radius: 25%;
+  animation: scrollDown 2s infinite;
+}
+
+@keyframes scrollDown {
+  0% {
+    bottom: 80px;
+  }
+  75% {
+    bottom: 70px;
+  }
+  100% {
+    bottom: 80px;
+  }
 }

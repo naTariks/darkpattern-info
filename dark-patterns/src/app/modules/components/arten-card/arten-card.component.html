@@ -1,8 +1,14 @@
-<div [ngClass]="[innerWidth < 992 ? '': 'vh-100', !hasSlideshow ?  'bg-primary': 'bg-secondary']">
-  <app-slideshow *ngIf="hasSlideshow; else textTemplate"></app-slideshow>
-  <ng-template #textTemplate>
-    <div id="div-info" class="container p-5">
-      <app-navbar title="Was sind Dark Patterns"></app-navbar>
+<div class="m-2">
+  <div class="card-body text-center">
+    <h2 class="card-title fw-bold mb-3 text-secondary">DK1</h2>
+    <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
+  </div>
+</div>
+
+<ng-template #modal>
+  <app-modal [modalTitle]="'Die Das Ananas'">
+    <app-modal-body>
       <p>
         Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
         magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
@@ -15,6 +21,6 @@
         consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
         praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
       </p>
-    </div>
-  </ng-template>
-</div>
+    </app-modal-body>
+  </app-modal>
+</ng-template>
