@@ -1,10 +1,9 @@
-<div class="vh-100" [ngClass]="{'bg-primary': !section.patterns, 'bg-dark': section.patterns}">
-  <ng-container *ngIf="section.patterns; else textTemplate">
-    <app-slideshow [patterns]="section.patterns"></app-slideshow>
-  </ng-container>
+<div [ngClass]="[innerWidth < 992 ? '': 'vh-100', !hasSlideshow ?  'bg-primary': 'bg-secondary']">
+  <app-slideshow *ngIf="hasSlideshow; else textTemplate" [patterns]="section.patterns"></app-slideshow>
   <ng-template #textTemplate>
-    <h1 class="text-center">{{ section.title }}</h1>
-    <div id="div-info" class="p-5">
+
+    <div id="div-info" class="container p-5">
+      <app-navbar [title]="section.title"></app-navbar>
       <p>
         {{ section.content }}
       </p>
