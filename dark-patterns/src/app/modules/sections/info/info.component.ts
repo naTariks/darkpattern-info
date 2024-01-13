@@ -7,21 +7,16 @@ import {Component, HostListener, Input, OnInit} from '@angular/core';
 })
 export class InfoComponent implements OnInit{
 
-<<<<<<< HEAD
-  @Input() section: {title: string, content: string, type: string, patterns?: any[]} = {title: "", content: "", type: ""};
-
-  ngOnInit(){
-    
-=======
-  @Input() hasSlideshow: Boolean = true;
+  @Input() section: {title: string, content: string, type: string, backgroundColor?: string, patterns?: any[]} = {title: "", content: "", type: ""};
   innerWidth: number;
   @HostListener('window:resize', ['$event'])
   onResize() {
     this.innerWidth = window.innerWidth;
->>>>>>> main
   }
+
 
   ngOnInit(){
     this.onResize();
   }
+
 }

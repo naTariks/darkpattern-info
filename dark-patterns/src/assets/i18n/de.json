@@ -7,7 +7,8 @@
         {
             "title": "Second section title name",
             "content": "Diesdas",
-            "type": "INFO"
+            "type": "INFO",
+            "backgroundColor": "black"
         },
         {
             "title": "Dark Patterns Arten",
@@ -39,12 +40,14 @@
         {
             "title": "Third section",
             "content": "asdasdasa adadasda da d ",
-            "type": "INFO"
+            "type": "INFO",
+            "backgroundColor": "white"
         },
         {
             "title": "Fifth section",
             "content": "asdasdasd adasdas a adasdsa",
-            "type": "INFO"
+            "type": "INFO",
+            "backgroundColor": "white"
         }
     ]
 }
