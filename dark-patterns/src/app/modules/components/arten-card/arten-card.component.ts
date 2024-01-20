@@ -1,6 +1,7 @@
-import {Component, ViewChild, inject} from '@angular/core';
+import {Component, Input, ViewChild, inject} from '@angular/core';
 import {ModalComponent} from "../../../shared-modules/components/modal/modal.component";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
+import { Pattern } from 'app/modules/model/Pattern';
 
 @Component({
   selector: 'app-arten-card',
@@ -9,8 +10,14 @@ import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 })
 export class ArtenCardComponent {
   @ViewChild('modal') private modalComponent?: ModalComponent
+  @Input() pattern: Pattern;
 
   constructor(private modalService: NgbModal) {
+  }
+
+  ngOnInit(){
+    console.log(this.pattern);
+    
   }
 
   open() {

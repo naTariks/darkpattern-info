@@ -1,18 +1,10 @@
 <div class="p-3">
   <app-navbar title="Dark Patterns Arten"></app-navbar>
-  <div class="container p-0 pt-4 h-100 d-flex align-items-center">
+  <div *ngIf="splittedPatternArray2d" class="container p-0 pt-4 h-100 d-flex align-items-center">
     <ngb-carousel [showNavigationIndicators]="false" [interval]="0" class="d-flex justify-content-center bg-primary rounded-5 w-100 py-5">
-      <ng-template ngbSlide>
+      <ng-template *ngFor="let page of splittedPatternArray2d" ngbSlide>
         <div class="row justify-content-center gap-5">
-          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
-          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
-          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
-        </div>
-      </ng-template>
-      <ng-template ngbSlide>
-        <div class="row justify-content-center gap-5">
-          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
-          <app-arten-card class="card col-4 bg-card card-width"></app-arten-card>
+          <app-arten-card *ngFor="let item of page" [pattern]="item" class="card col-4 bg-card card-width"></app-arten-card>
         </div>
       </ng-template>
     </ngb-carousel>

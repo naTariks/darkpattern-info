@@ -1,26 +1,17 @@
-<div class="m-2">
-  <div class="card-body text-center">
-    <h2 class="card-title fw-bold mb-3 text-secondary">DK1</h2>
-    <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
+<ng-container *ngIf="pattern">
+  <div class="m-2">
+    <div class="card-body text-center">
+      <h2 class="card-title fw-bold mb-3 text-secondary">{{ pattern.patternName }}</h2>
+      <p class="card-text mb-4">{{ pattern.shortDescription }}</p>
+      <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
+    </div>
   </div>
-</div>
 
-<ng-template #modal>
-  <app-modal [modalTitle]="'Die Das Ananas'">
-    <app-modal-body>
-      <p>
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-        magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-        no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-        duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-        dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
-        sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
-        sanctus est Lorem ipsum dolor sit amet. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
-        consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
-        praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet,
-      </p>
-    </app-modal-body>
-  </app-modal>
-</ng-template>
+  <ng-template #modal>
+    <app-modal [modalTitle]="'Die Das Ananas'">
+      <app-modal-body>
+        <p>{{ pattern.longDescription }}</p>
+      </app-modal-body>
+    </app-modal>
+  </ng-template>
+</ng-container>
