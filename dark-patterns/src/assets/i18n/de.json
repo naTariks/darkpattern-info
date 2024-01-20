@@ -8,11 +8,14 @@
             "title": "Second section title name",
             "content": "Diesdas",
             "type": "INFO",
-            "backgroundColor": "black"
+            "fontColor": "#ffffff",
+            "backgroundColor": "#000000"
         },
         {
             "title": "Dark Patterns Arten",
             "type": "INFO",
+            "fontColor": "#000000",
+            "backgroundColor": "#ffffff",
             "patterns": [
                 { 
                     "patternName": "Sneak into basket",
@@ -26,19 +29,19 @@
                     "longDescription": "Du scrollst über eine Website und plötzlich ploppt ein Pop-Up auf, das für einen Newsletter wirbt. Du schließt es und nach wenigen Sekunden, ploppt es wieder auf. Und wieder und wieder und wieder. Dieses Pattern gilt zwar nicht als gefährlich, aber es nervt!"
                 },
                 {
-                    "patternName": "Diesdas",
+                    "patternName": "Nice try",
                     "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "Diese beiden Dark Pattern werden gerne kombiniert. Bei dem sogenannte Roach Motel („Schaben Motel“) ist es super einfach einen Account anzulegen oder ein Probe-Abo abzuschließen. Willst du den Account aber löschen oder das Abo beenden, wird es dir besonders schwer gemacht. Um das zu tun, muss man eine E-Mail senden, einen Brief schicken oder direkt anrufen. Hauptsache aufwändig, um eine möglichst große Hürde zu schaffen."
+                    "longDescription": "Diese beiden Dark Pattern werden gerne kombiniert. Bei dem sogenannte Roach Motel ('Schaben Motel') ist es super einfach einen Account anzulegen oder ein Probe-Abo abzuschließen. Willst du den Account aber löschen oder das Abo beenden, wird es dir besonders schwer gemacht. Um das zu tun, muss man eine E-Mail senden, einen Brief schicken oder direkt anrufen. Hauptsache aufwändig, um eine möglichst große Hürde zu schaffen."
                 },
                 {
-                    "patternName": "Diesdas",
+                    "patternName": "Announcement",
                     "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "Wenn du online einkaufst, verwenden manche Shops eine heimtückische Taktik, um dir Artikel in den Warenkorb zu legen, ohne dass du es bemerkst. Das wird als „sneak into basket“ bezeichnet. Und so funktioniert das Prinzip: Du legst einen Artikel in den Warenkorb und irgendwo im Checkout-Prozess wird dir ein ergänzendes Produkt automatisiert hinzugefügt. Dieses Produkt wird zwar erwähnt, aber der Hinweis ist so unauffällig, dass man es leicht übersehen kann. Wenn du z. B. einen Laptop kaufst, könnte ein zusätzliches „sneak into basket“-Produkt eine Laptophülle sein. Du willst deinen Laptop schließlich nicht ungeschützt lassen, oder?"
+                    "longDescription": "Wenn du online einkaufst, verwenden manche Shops eine heimtückische Taktik, um dir Artikel in den Warenkorb zu legen, ohne dass du es bemerkst. Das wird als 'sneak into basket' bezeichnet. Und so funktioniert das Prinzip: Du legst einen Artikel in den Warenkorb und irgendwo im Checkout-Prozess wird dir ein ergänzendes Produkt automatisiert hinzugefügt. Dieses Produkt wird zwar erwähnt, aber der Hinweis ist so unauffällig, dass man es leicht übersehen kann. Wenn du z. B. einen Laptop kaufst, könnte ein zusätzliches 'sneak into basket'-Produkt eine Laptophülle sein. Du willst deinen Laptop schließlich nicht ungeschützt lassen, oder?"
                 },
                 {
-                    "patternName": "Diesdas",
-                    "shortDescription": "asd asdasdasd asd asd assad fef ef"
-                    "longDescription": "usw. ..."
+                    "patternName": "Mountain",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
+                    "longDescription": "usw."
                 }
             ]
         },
@@ -46,13 +49,15 @@
             "title": "Third section",
             "content": "asdasdasa adadasda da d ",
             "type": "INFO",
-            "backgroundColor": "white"
+            "fontColor": "#ffffff",
+            "backgroundColor": "#000000"
         },
         {
             "title": "Fifth section",
             "content": "asdasdasd adasdas a adasdsa",
             "type": "INFO",
-            "backgroundColor": "white"
+            "fontColor": "#000000",
+            "backgroundColor": "#ffffff"
         }
     ]
 }
