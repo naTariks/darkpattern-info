@@ -1,0 +1,15 @@
+<div *ngIf="jsonData">
+    <ng-container *ngFor="let section of jsonData">
+        <ng-container *ngIf="section.type === 'LANDING'; else infoSection">
+            <app-landing-page></app-landing-page>
+        </ng-container>
+        <ng-template #infoSection>
+            <ng-container *ngIf="section.hasOwnProperty('patterns'); else noSlideshow">
+                <app-info  [section]="section"></app-info>
+            </ng-container>
+            <ng-template #noSlideshow>
+                <app-info [section]="section"></app-info>
+            </ng-template>
+        </ng-template>
+    </ng-container>
+</div>

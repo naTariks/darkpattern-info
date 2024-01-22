@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PraxisComponent } from './praxis.component';
+import { WebsiteWrapperComponent } from './website-wrapper.component';
 
-describe('PraxisComponent', () => {
-  let component: PraxisComponent;
-  let fixture: ComponentFixture<PraxisComponent>;
+describe('WebsiteWrapperComponent', () => {
+  let component: WebsiteWrapperComponent;
+  let fixture: ComponentFixture<WebsiteWrapperComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PraxisComponent ]
+      declarations: [ WebsiteWrapperComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PraxisComponent);
+    fixture = TestBed.createComponent(WebsiteWrapperComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

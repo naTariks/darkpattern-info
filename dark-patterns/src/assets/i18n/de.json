@@ -1,0 +1,63 @@
+{
+    "sections": [
+        {
+            "title": "Dark Patterns",
+            "type": "LANDING"
+        },
+        {
+            "title": "Second section title name",
+            "content": "Diesdas",
+            "type": "INFO",
+            "fontColor": "#ffffff",
+            "backgroundColor": "#000000"
+        },
+        {
+            "title": "Dark Patterns Arten",
+            "type": "INFO",
+            "fontColor": "#000000",
+            "backgroundColor": "#ffffff",
+            "patterns": [
+                { 
+                    "patternName": "Sneak into basket",
+                    "shortDescription": "Dangerous dark pattern which causes ...",
+                    "longDescription": "„Diese Unterkunft wurde gerade wieder gebucht!“ Wurde Sie das wirklich? Aktivitäts-Benachrichtigungen sind oft künstlich erzeugte Hinweise auf einen Kauf, eine Buchung oder Aktivität, die gerade stattgefunden hat. Dadurch wird künstlicher Druck durch das Gefühl der Knappheit erzeugt.",
+                    "__comment__": "all other properties a pattern has ... following below"
+                },
+                {
+                    "patternName": "Diesdas",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
+                    "longDescription": "Du scrollst über eine Website und plötzlich ploppt ein Pop-Up auf, das für einen Newsletter wirbt. Du schließt es und nach wenigen Sekunden, ploppt es wieder auf. Und wieder und wieder und wieder. Dieses Pattern gilt zwar nicht als gefährlich, aber es nervt!"
+                },
+                {
+                    "patternName": "Nice try",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
+                    "longDescription": "Diese beiden Dark Pattern werden gerne kombiniert. Bei dem sogenannte Roach Motel ('Schaben Motel') ist es super einfach einen Account anzulegen oder ein Probe-Abo abzuschließen. Willst du den Account aber löschen oder das Abo beenden, wird es dir besonders schwer gemacht. Um das zu tun, muss man eine E-Mail senden, einen Brief schicken oder direkt anrufen. Hauptsache aufwändig, um eine möglichst große Hürde zu schaffen."
+                },
+                {
+                    "patternName": "Announcement",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
+                    "longDescription": "Wenn du online einkaufst, verwenden manche Shops eine heimtückische Taktik, um dir Artikel in den Warenkorb zu legen, ohne dass du es bemerkst. Das wird als 'sneak into basket' bezeichnet. Und so funktioniert das Prinzip: Du legst einen Artikel in den Warenkorb und irgendwo im Checkout-Prozess wird dir ein ergänzendes Produkt automatisiert hinzugefügt. Dieses Produkt wird zwar erwähnt, aber der Hinweis ist so unauffällig, dass man es leicht übersehen kann. Wenn du z. B. einen Laptop kaufst, könnte ein zusätzliches 'sneak into basket'-Produkt eine Laptophülle sein. Du willst deinen Laptop schließlich nicht ungeschützt lassen, oder?"
+                },
+                {
+                    "patternName": "Mountain",
+                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
+                    "longDescription": "usw."
+                }
+            ]
+        },
+        {
+            "title": "Third section",
+            "content": "asdasdasa adadasda da d ",
+            "type": "INFO",
+            "fontColor": "#ffffff",
+            "backgroundColor": "#000000"
+        },
+        {
+            "title": "Fifth section",
+            "content": "asdasdasd adasdas a adasdsa",
+            "type": "INFO",
+            "fontColor": "#000000",
+            "backgroundColor": "#ffffff"
+        }
+    ]
+}
