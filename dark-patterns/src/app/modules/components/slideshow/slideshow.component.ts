@@ -1,6 +1,6 @@
 import {Component, Input} from '@angular/core';
 import {NgbCarouselConfig} from '@ng-bootstrap/ng-bootstrap';
-import { Pattern } from 'app/modules/model/Pattern';
+import {Pattern} from 'app/modules/model/Pattern';
 
 @Component({
   selector: 'app-slideshow',

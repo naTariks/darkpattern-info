@@ -1,5 +1,5 @@
 import {Component, HostListener, Input, OnInit} from '@angular/core';
-import { Pattern } from 'app/modules/model/Pattern';
+import {Pattern} from 'app/modules/model/Pattern';
 
 @Component({
   selector: 'app-info',

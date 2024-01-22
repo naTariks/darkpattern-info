@@ -1,7 +1,7 @@
-import {Component, Input, ViewChild, inject} from '@angular/core';
+import {Component, Input, ViewChild} from '@angular/core';
 import {ModalComponent} from "../../../shared-modules/components/modal/modal.component";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
-import { Pattern } from 'app/modules/model/Pattern';
+import {Pattern} from 'app/modules/model/Pattern';
 
 @Component({
   selector: 'app-arten-card',
@@ -17,7 +17,7 @@ export class ArtenCardComponent {
 
   ngOnInit(){
     console.log(this.pattern);
-    
+
   }
 
   open() {
