@@ -17,6 +17,7 @@ import {ArtenCardComponent} from './modules/components/arten-card/arten-card.com
 import {FooterComponent} from './modules/components/footer/footer.component';
 import {ModalComponent} from './shared-modules/components/modal/modal.component';
 import {ModalBodyComponent} from './shared-modules/components/modal-body/modal-body.component';
+import {KeepHtmlPipe} from "./shared-modules/models/pipes/keep-html.pipe";
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import {ModalBodyComponent} from './shared-modules/components/modal-body/modal-b
     ArtenCardComponent,
     FooterComponent,
     ModalComponent,
-    ModalBodyComponent
+    ModalBodyComponent,
+    KeepHtmlPipe
   ],
   imports: [
     BrowserModule,

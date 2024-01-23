@@ -17,10 +17,10 @@
             "fontColor": "#000000",
             "backgroundColor": "#ffffff",
             "patterns": [
-                { 
+                {
                     "patternName": "Sneak into basket",
                     "shortDescription": "Dangerous dark pattern which causes ...",
-                    "longDescription": "„Diese Unterkunft wurde gerade wieder gebucht!“ Wurde Sie das wirklich? Aktivitäts-Benachrichtigungen sind oft künstlich erzeugte Hinweise auf einen Kauf, eine Buchung oder Aktivität, die gerade stattgefunden hat. Dadurch wird künstlicher Druck durch das Gefühl der Knappheit erzeugt.",
+                    "longDescription": "„Diese Unterkunft wurde gerade wieder gebucht!“ <br><br>Wurde Sie das wirklich? Aktivitäts-Benachrichtigungen sind oft künstlich erzeugte Hinweise auf einen Kauf, eine Buchung oder Aktivität, die gerade stattgefunden hat. Dadurch wird künstlicher Druck durch das Gefühl der Knappheit erzeugt.",
                     "__comment__": "all other properties a pattern has ... following below"
                 },
                 {
