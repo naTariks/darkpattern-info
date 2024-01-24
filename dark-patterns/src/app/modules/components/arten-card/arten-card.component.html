@@ -2,7 +2,7 @@
   <div class="m-2">
     <div class="card-body text-center">
       <h2 class="card-title fw-bold mb-3 text-secondary">{{ pattern.patternName }}</h2>
-      <p class="card-text mb-4">{{ pattern.shortDescription }}</p>
+      <p [innerHTML]="pattern.shortDescription" class="card-text mb-4 fw-bold"></p>
       <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
     </div>
   </div>
@@ -10,7 +10,7 @@
   <ng-template #modal>
     <app-modal [modalTitle]="pattern.patternName">
       <app-modal-body>
-        <p>{{ pattern.longDescription }}</p>
+        <div [innerHTML]="pattern.longDescription"></div>
       </app-modal-body>
     </app-modal>
   </ng-template>

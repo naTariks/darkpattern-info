@@ -1,6 +1,9 @@
 <div class="p-3">
   <app-navbar title="Dark Patterns Arten"></app-navbar>
-  <div *ngIf="splittedPatternArray2d" class="container p-0 pt-4 h-100 d-flex align-items-center">
+  <div class="container px-5 pb-2">
+    <p>Dark Patterns sind wie der Mensch sehr einzigartig. Aus diesem Grund ist es schwer genau zu sagen, dass dieses Dark Pattern genau eines der solchen Art ist und ein anderes einer anderen zuzuschreiben ist. Meist sind Dark Patterns, welche auf Webseiten anzutreffen sind, ein Gemisch aus verschiedenen "Arten". Nichtsdestotrotz können verschiedene "Wirkungsweisen" erkannt werden und wie sie auf die Menschen Einfluss haben.</p>
+  </div>
+  <div *ngIf="splittedPatternArray2d" class="container mb-4 p-0 pt-4 h-100 d-flex align-items-center">
     <ngb-carousel [showNavigationIndicators]="false" [interval]="0" class="d-flex justify-content-center bg-primary rounded-5 w-100 py-5">
       <ng-template *ngFor="let page of splittedPatternArray2d" ngbSlide>
         <div class="row justify-content-center gap-5">

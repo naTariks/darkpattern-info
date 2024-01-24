@@ -5,59 +5,111 @@
             "type": "LANDING"
         },
         {
-            "title": "Second section title name",
-            "content": "Diesdas",
+            "title": "Was sind Dark Patterns",
+            "content": "<h2>Definition</h2><p>Dark Patterns sind Designmuster, welche auf Webseiten und Apps die Nutzenden dazu bringen, gegen ihre eigenen Interessen zu handeln. Einige Patterns rufen bestimmte Emotionen hervor oder nutzen das menschliche Wahrnehmungsmuster gekonnt aus. Viele der angewendeten Tricks zielen auf das Unterbewusstsein des Menschen ab und manipulieren uns, ohne dass wir merken, was mit uns passiert. Diese Tricks, von denen die Dark Patterns Gebrauch machen, nutzen die Erkenntnisse aus dem Neuromarketing. Neuromarketing ist ein Marketingbereich, welcher die gewonnenen Erkenntnisse der Hirnforschung und Psychologie für Werbezwecke einsetzt.</p><h2>Verwendung</h2><p>Dark Patterns werden von den Unternehmen einerseits zur erweiterten Datensammlung von den Nutzenden eingesetzt, andererseits versuchen sie die Nutzenden zu einem (teilweise) ungewollten Kauf zu verleiten.</p><p>Durch das \"erschlichene\" Einverständnis zur Datensammlung mittels Cookies können Kund:innen besser analysiert werden. Diese können an andere Unternehmen verkauft werden oder zur Verbesserung der eigenen Marketingstrategie verwendet werden.</p><p>Weitere Beispiele sind unter anderem Abonnementsdienste, welche versuchen, die Abmeldung zu erschweren. So wird der Abmeldeknopf meist sehr klein und/oder versteckt dargestellt. Ausserdem wird der Dienst automatisch verlängert, wenn gewisse Fristen verpasst wurden. Solche Hindernisse führen dazu, dass Menschen meist länger für etwas bezahlen, als sie gedachten.</p><p>Zusammengefasst kann gesagt werden, dass Dark Patterns vorwiegend mit dem Ziel der Gewinnmaximierung eingesetzt werden.</p><p>Der Einsatz von Dark Patterns kann aber auch negative Folgen für Unternehmen haben. So kann es unter anderem bei den Nutzenden zu Frustration und Misstrauen führen, da sie sich manipuliert fühlen. Dadurch kann langfristig das Vertrauen in ein Unternehmen verloren gehen. Allerdings muss hierbei relativiert werden. Da es überwiegend das Unterbewusstsein anspricht und die Menschen nicht über dieses Thema Bescheid wissen, fühlen sie sich meist auch nicht betroffen.</p>",
             "type": "INFO",
-            "fontColor": "#ffffff",
-            "backgroundColor": "#000000"
+            "fontColor": "#f5f5f5",
+            "backgroundColor": "#121212"
         },
         {
             "title": "Dark Patterns Arten",
             "type": "INFO",
-            "fontColor": "#000000",
-            "backgroundColor": "#ffffff",
+            "fontColor": "#f5f5f5",
+            "backgroundColor": "#222222",
             "patterns": [
-                { 
-                    "patternName": "Sneak into basket",
-                    "shortDescription": "Dangerous dark pattern which causes ...",
-                    "longDescription": "„Diese Unterkunft wurde gerade wieder gebucht!“ Wurde Sie das wirklich? Aktivitäts-Benachrichtigungen sind oft künstlich erzeugte Hinweise auf einen Kauf, eine Buchung oder Aktivität, die gerade stattgefunden hat. Dadurch wird künstlicher Druck durch das Gefühl der Knappheit erzeugt.",
-                    "__comment__": "all other properties a pattern has ... following below"
+                {
+                    "patternName": "Social Proof",
+                    "shortDescription": "Diese Hammer-Webseite hat mir weitergeholfen und verdient 5 Sterne ★★★★★",
+                    "longDescription": "<p>Wenn mensch sich noch ein bisschen unsicher über ein Produkt ist, so ist es doch hilfreich, eine ehrliche Meinung und Bewertung lesen zu können. Ist dir schon aufgefallen, dass die meisten Bewertungen sehr gut sind? Das liegt daran, dass sie grösstenteils erfunden sind. (anders als im kleinen Teaser dieser Seite. Diese ist wirklich echt!) Sie sollen einem nur das Gefühl geben, dass es sich um ein super Produkt handelt und wenn andere damit glücklich sind, solltest du doch dann auch sein.</p><p>Sollte sie doch mal nicht erfunden sein, so macht die Selektion und Anreihung der Bewertungen einen grossen Unterschied. Die schlechtesten Bewertungen sind sicher niemals zuoberst und wer sagt, dass alle schlechten überhaupt angezeigt werden.</p><p>Alles gut. Für diese Webseite gibt es wirklich keine schlechten Bewertungen. Wir erhalten nur 5 Sterne;)</p>"
                 },
                 {
-                    "patternName": "Diesdas",
-                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "Du scrollst über eine Website und plötzlich ploppt ein Pop-Up auf, das für einen Newsletter wirbt. Du schließt es und nach wenigen Sekunden, ploppt es wieder auf. Und wieder und wieder und wieder. Dieses Pattern gilt zwar nicht als gefährlich, aber es nervt!"
+                    "patternName": "Operativer Zwang",
+                    "shortDescription": "Weiter Informationen zu dieser Technik können nur angeschaut werden, wenn du dich registrierst. Wieso auch immer, aber mach es",
+                    "longDescription": "<p>Unter dem Überbegriff des operativen Zwangs (Wow, endlich ein deutscher Name) kommen verschiedene Tricks zusammen, welche alle etwas gemeinsam haben. Die Nutzenden werden faktisch dazu gezwungen, eine Handlung auszuführen, damit sie das machen können, was sie eigentlich machen wollten.</p><p>So gibt es zum Beispiel das Forced Enrollment (Och Mensch, doch wieder englisch), welches die Nutzenden dazu zwingt, sich zu registrieren, bevor sie überhaupt irgendetwas Sonstiges machen können.</p><p>Ausserdem gibt es die erzwungene Kontinuität, welche sehr viele Abonnementdienste anwenden. Zuerst gibt es einen gratis Monat, aber dass er nachher bezahlt werden muss, wird ganz schön klein gehalten.</p><p>Schlussendlich gibt es noch den Forced Review. Hierbei wird ein langer Text, meist Nutzungsbedingungen, akzeptiert werden, bevor mensch die Seite benutzen kann. Der Mensch ist verständlicherweise zu faul, all diesen Text durchzulesen und akzeptiert blind. Doch genau dort wurde der Fehler begangen.</p>"
                 },
-                {
-                    "patternName": "Nice try",
-                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "Diese beiden Dark Pattern werden gerne kombiniert. Bei dem sogenannte Roach Motel ('Schaben Motel') ist es super einfach einen Account anzulegen oder ein Probe-Abo abzuschließen. Willst du den Account aber löschen oder das Abo beenden, wird es dir besonders schwer gemacht. Um das zu tun, muss man eine E-Mail senden, einen Brief schicken oder direkt anrufen. Hauptsache aufwändig, um eine möglichst große Hürde zu schaffen."
-                },
-                {
-                    "patternName": "Announcement",
-                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "Wenn du online einkaufst, verwenden manche Shops eine heimtückische Taktik, um dir Artikel in den Warenkorb zu legen, ohne dass du es bemerkst. Das wird als 'sneak into basket' bezeichnet. Und so funktioniert das Prinzip: Du legst einen Artikel in den Warenkorb und irgendwo im Checkout-Prozess wird dir ein ergänzendes Produkt automatisiert hinzugefügt. Dieses Produkt wird zwar erwähnt, aber der Hinweis ist so unauffällig, dass man es leicht übersehen kann. Wenn du z. B. einen Laptop kaufst, könnte ein zusätzliches 'sneak into basket'-Produkt eine Laptophülle sein. Du willst deinen Laptop schließlich nicht ungeschützt lassen, oder?"
-                },
-                {
-                    "patternName": "Mountain",
-                    "shortDescription": "asd asdasdasd asd asd assad fef ef",
-                    "longDescription": "usw."
-                }
+              {
+                "patternName": "Roach Motel",
+                "shortDescription": "Was haben das Schneeballsystem, eine Fischreuse und das Roach Motel gemeinsam? Du kommst leicht rein, aber fast nicht mehr raus",
+                "longDescription": "<p>Das Roach Motel ist auf Deutsch übersetzt, nichts anderes als eine normale Schabenfalle. Damit ist natürlich nicht gemeint, dass in einem Onlineshop ein Bild einer Falle für Kakerlaken zu finden ist. Der Begriff ist bildlich gemeint;)</p><p>Unter dem Roach Motel versteht sich das Prinzip, dass es sehr einfach ist, sich für etwas zu registrieren. Doch die Kündigung ist sehr erschwert. Dies kann dann durch verschiedene Taktiken umgesetzt werden. Zum Beispiel kann die Kündigung nur telefonisch erfolgen oder es gibt gar keine Möglichkeit zu künden.</p>"
+              },
+              {
+                "patternName": "Price Comparison Prevention",
+                "shortDescription": "Geldkurse und das jeweilige Umrechnen sind sehr schwer. Ausser du warst im bwd Bern",
+                "longDescription": "<p>Es macht einen Unterschied, ob ein Produkt  1€ oder CHF1 kostet. Okay, vielleicht nicht bei 1, aber wenn das Produkt ein bisschen mehr kostet, irgendwann dann schon. Genau mit diesem Trick versuchen verschiedene Seiten, die Menschen zu verwirren und den \"wahren\" Preis versteckt zu halten. Es sind nicht automatisch einfach Onlineshops mit Fremdwährungen. Bei der Anwendung von Price Comparison Prevention ändern sich die Währungen während des Navigieren über die Website. Zum Teil sind nicht einmal alle Produkte in der gleichen Währung. Durch diese Inkonsistenz kann sich der Mensch sehr wenig vorstellen und Vergleiche sind kaum möglich.</p>"
+              },
+              {
+                "patternName": "Preselection",
+                "shortDescription": "Natürlich willst du die teurere Ausgabe dieses Abonnements haben, obwohl dir das überhaupt keinen Vorteil bringt",
+                "longDescription": "<p>Die Vorauswahl kann in ganz vielen verschiedenen Orten angewendet werden. Sei es beim Einverständnis zur Weitergabe von deinen Daten an Dritte oder doch lieber die handsignierte Edition eines normalen Comics. So unterschiedlich sich dieser Trick zeigen kann, ist der Mechanismus dahinter genau derselbe. Von einer Option, egal ob sie Sinn macht oder nicht, ist schon etwas ausgewählt. Meist ist diese Auswahl aber nicht die Wahl, welche die Nutzenden treffen würden. So müssen die Nutzenden noch etwas machen, um das gewünschte Resultat zu erhalten.</p>"
+              },
+              {
+                "patternName": "Hidden Information",
+                "shortDescription": "Wie viele Nutzungsbedingungen hast du in deinem Leben gelesen?",
+                "longDescription": "<p>Von den Nutzungsbedingungen wissen wir es ja schon. Da stehen so viele Sachen drin, welche eigentlich wichtig zu wissen sind, aber trotzdem sind wir zu faul, diese zu lesen und akzeptieren sie einfach. Ähnlich verhält sich beim Trick der Hidden Information. Statt einfach viel zu langer Text zu sein, ist bei diesem Dark Pattern die Information einfach sehr versteckt zu \"finden\". Die wichtigen Informationen werden dabei irgendwo in der ganzen Website versteckt, munzig klein, transparent oder ganz am Rand dargestellt. Das heisst, statt sie direkt ins Gesicht gedrückt zu bekommen und mit der Menge überfordert zu sein, sind diese Informationen Weltmeister im Verstecken spielen. Obwohl dies richtig fies ist, sind die Unternehmen im Recht, denn die Informationen sind ja auf ihrer Webseite.</p>"
+              },
+              {
+                "patternName": "Click Fatigue",
+                "shortDescription": "Wähle immer den kürzesten Weg und den mit dem kleinsten Widerstand. Okay, vielleicht nicht immer",
+                "longDescription": "<p>Wie so schön gesagt wird: Zeit ist Geld. Dem stimme ich nicht ganz zu, aber die Tendenz stimmt. Es muss immer so schnell gehen wie möglich und ich mag nicht noch extra Aufwand auf mich nehmen. Dark Patterns, welche den Mechanismus von Click Fatigue verwenden, nützen exakt diese Denkweise der Menschen aus.</p><p>Unterschiedlich lang gestaltete Klickwege zu verschiedenen Optionen führen dazu, dass die Nutzer:innen eher sind und somit die \"einfachere\" Variante gewählt wird. Dieser Trick ist häufig bei Cookie-Bannern anzutreffen. Mit einem Klick können alle Cookies angenommen werden, doch um sie abzulehnen müssen mehrere Klicks vorgenommen werden.</p><p>Krasses Beispiel (negativ):</p><a href=\"https://youtu.be/JxEAX7SWIDw\">https://youtu.be/JxEAX7SWIDw</a>"
+              },
+              {
+                "patternName": "Sneak into Basket",
+                "shortDescription": "Sneaky little b*tch",
+                "longDescription": "<p>Wow, du hast ein Produkt gefunden, welches dir gefällt und du gerne kaufen würdest. Ab in den Warenkorb damit. Doch wieso ist der Betrag im Warenkorb jetzt 55.- statt die 44.- des Produktes? Der Onlineshop war es. Dieser Trick schmuggelt noch weitere Produkte in deinen Warenkorb, als dieses, welche du selbst hineintust.</p><p>Du hast es zum Glück noch bemerkt und diese zusätzlichen Produkte wieder entfernt, doch wie vielen anderen ist dies wohl nicht direkt aufgefallen. Nun ja, genau das ist ja das Ziel des Onlineshops, wenn sie so frech sind.</p>"
+              },
+              {
+                "patternName": "Hidden Subscription",
+                "shortDescription": "Ah nein, dies ist keine einmalige Sache. Du wirst noch ganz lange zahlen",
+                "longDescription": "<p>Manche Onlineshops, ja sogar Einzelpersonen sind ganz dreist. So hat zum Beispiel Donald Trump auf einer eigenen Spendenplattform diesen Trick des \"versteckten Abonnements\" angewendet. Nach dem jemand eine Spende gemacht hat, wurde im Hintergrund aus einer einmaligen Sache eine wiederholende.</p><p>Diese Masche wird aber auch in normalen Onlineshops angewendet. Während die einen dir nur ganz aufdringlich noch ein Versicherungsabo zu deinem Handy verkaufen wollen, gehen andere so weit und machen es einfach, ohne dass du davon wirklich erfährst.</p>"
+              },
+              {
+                "patternName": "Hidden Cost",
+                "shortDescription": "zzgl. Versand",
+                "longDescription": "<p>Bei der Auslage der Produkte wirkt etwas vielleicht noch ganz billig. Doch kaum gehst du zum Kaufprozess über, kommen immer mehr Beträge noch dazu. Plötzlich musst du noch Steuern, Versand und sonstige Gebühren zahlen. Doch du hast schon all deine Kontendaten eingegeben und kannst den Kauf nur noch mit einem Klick bestätigen. Viele Leute bestellen es dann, denn die Freude für dieses Produkt oder Dienstleistung ist zu gross und mensch ist ja schon so weit gekommen. Schade wars ums Geld!</p>"
+              },
+              {
+                "patternName": "Trick Question",
+                "shortDescription": "Hat kaaner kaa Messer net do? - Ja, also was jetzt?",
+                "longDescription": "<p>Zwei-/dreifache Verneinungen sind etwas sehr Schönes in jeder Sprache. Doch schon so schnell kommt die Überforderung. Ist diese Verneinung jetzt wortwörtlich gemeint oder einfach so gesagt? Niemals wird es nie zu einem Missverständnis bei solchen Gesprächen kommen. Dieser sehr einfache Trick oder auch einfach komplette missverständliche Formulierungen werden teilweise bewusst eingesetzt. Die Kunden sind zwar komplett verwirrt, aber müssen jetzt eine Entscheidung treffen. Nun ja, was will schon falsch gehen. Zack, du teilst jetzt ganz viele Daten oder dein Abo wurde doch nicht beendet.</p>"
+              },
+              {
+                "patternName": "Misdirection",
+                "shortDescription": "Look left → das ist rechts!",
+                "longDescription": "<p>Auffällige grafische Elemente lenken die Nutzenden vom Inhalt ab und sorgen dafür, dass eine Auswahl getroffen wird, welche nicht im Sinne der Nutzenden steht. Dies kann einerseits mit Piktogrammen sein, welche der Mensch einfacher interpretiert als der geschriebene Text, oder durch stark hervor gehobene Elemente. Letzteres wird bei Cookie-Einstellungen häufig verwendet. So kommt es oft vor, dass der Button \"Alle akzeptieren\" schön auffällig farbig und grösser ist. So wird der \"falsche\" Button schon nur aus Intuition gedrückt.</p>"
+              },
+              {
+                "patternName": "Bait and Switch",
+                "shortDescription": "<a href=\"https://userinyerface.com/\">https://userinyerface.com/</a>",
+                "longDescription": "<p>User Experience (UX) umschreibt alle Aspekte bei einer Interaktion mit einem gewissen Dienst. Damit nicht jede Seite neu erklärt werden muss, gibt es gewisse Regeln oder Strukturen, an welche sich Entwickler:innen versuchen zu halten. Dazu gehört zum Beispiel, dass die Farbe Grün etwas Gutes impliziert und die Farbe Rot eher, dass etwas nicht gut gelaufen ist. Bei der Anwendung von Bait and Switch wird dies extra ausgenutzt. Die Nutzenden interagieren mit einem Element, bei welchem sie die Reaktion darauf \"kennen\". Doch die Seite reagiert anders als erwartet. Wenn auf das kleine Schliessen Kreuz eines Pop-Ups gedrückt wird, gehen die Nutzer:innen davon aus, dass sich das Pop-up einfach schliesst. Nicht aber beim «Bait and Switch» Pattern.</p><p>Denn mit diesem Pattern wird nach dem Klick auf das Schliessen-Kreuz zum Beispiel automatisch ein Update installiert.</p>"
+              },
+              {
+                "patternName": "Disguised Ads",
+                "shortDescription": "Mimikry on fleek",
+                "longDescription": "<p>Mit einem einheitlichen Design des Inhalts und der Werbung auf einer Webseite verwechseln die Nutzer:innen schnell ein Steuerungselement und interagieren dann mit dem falschen. Beispielsweise sieht der Button «starten» eines Spiels genau gleich aus, wie der einer Werbung, und somit kann es schnell zu Verwechslungen kommen.</p>"
+              },
+              {
+                "patternName": "Confirmshaming",
+                "shortDescription": "Die bewusst gewählte Formulierung führt zu einem schlechten Gewissen oder der Angst, etwas zu verpassen (FOMO)",
+                "longDescription": "<p>Dark Patterns, welche sich den Mechanismus von Confirmshaming zu nutzen machen, bieten zwar grösstenteils eine Auswahlmöglichkeit an, legen aber mit einer bewussten Formulierung nahe, dass die Nutzenden sich schämen müssten, diese zu wählen.</p><p>\"Nein danke, ich möchte keine exklusiven Rabatte\", ist ein typisches Beispiel für Confirmshaming. Bei einem nicht Auswählen der Option werden Schuldgefühle bei den Nutzenden ausgelöst, da sie sich die Kostenvorteile entgehen lassen.</p>"
+              },
+              {
+                "patternName": "Scarcity",
+                "shortDescription": "Die Vergänglichkeit des Lebens kann etwas ganz Schönes sein, aber auch ganz viel Angst auslösen",
+                "longDescription": "<p>Kennst du denn Moment, wenn du dir etwas anschaust, es haben möchtest, aber noch wartest mit dem Kauf. Wenn du dich nun für den Kauf entschieden hast, gibt es das Produkt nicht mehr. Diese bekannte Angst wird manchmal extra eingesetzt.</p><p>\"Von diesem schönen Sakko gibt es nur noch 3 Stücke\", führt doch zu einer viel schnelleren und unreflektierten Kaufentscheidung. Schon hat das Dark Pattern funktioniert. Das Dreckige am ganzen ist, dass diese Angaben meist erfunden sind.</p><p>Zu diesem Mechanismus kann auch der Countdown gezählt werden. Er soll anzeigen, dass etwas bald nicht mehr mit diesem Rabatt zu haben ist oder ähnliches. Doch wie schon im vorderen Beispiel sind diese Countdowns grösstenteils erfunden und nach dem er abgelaufen ist, beginnen sie einfach wieder von vorne.</p>"
+              },
+              {
+                "patternName": "Nagging",
+                "shortDescription": "Hast du Brot? Nein. Hast du Brot? Nein. Hast du Brot? Nein. Hast du Brot? Nein. ... ... Hast du Brot. Nein. Hast du Brot? Ja",
+                "longDescription": "<p>Der Witz geht zwar ein bisschen anders, aber als Beispiel taugt es trotzdem. Nagging, zu Deutsch 'nerven', hat das Ziel, durch wiederholtes und meist aggressives Auffordern, einer Option oder Aktion zuzustimmen. Vorwiegend kommt dieses Dark Pattern in der Form eines Pop-Ups, welches sich annehmen oder nur temporär (\"Nicht jetzt\") ablehnen lässt.</p><p>So unschön das Ganze ist und der Mensch eigentlich komplett fähig ist, den Mechanismus dahinter zu verstehen, funktioniert es zu oft. Die permanente Aufforderung, etwas zu tun, nervt irgendwann und lässt es uns akzeptieren.</p>"
+              }
             ]
         },
         {
-            "title": "Third section",
-            "content": "asdasdasa adadasda da d ",
+            "title": "Rechtliche Grundlagen",
+            "content": "<p>Vielen von diesen Mechanismen sind Nutzer:innen des Internets einfach ausgeliefert. Die Menschen werden also manipuliert, ohne dass sie dafür einwilligen oder gewarnt werden. Nebst einem \"Eingriff\" in die Entscheidungsfreiheit der jeweiligen wirken viele dieser Praktiken moralisch verwerflich. Ein funktionierender Rechtsstaat würde also diese Probleme erkennen und die Verwendung von Dark Patterns gesetzlich einschränken. Leider ist dem nicht ganz so. Es gibt zwar aufkommende Tendenzen, etwas dagegen zu machen, doch die Einschränkungen sind noch minim. Schauen wir genauer hin.</p><h2>Schweiz</h2><p>Laut einer Stellungnahme vom 18. Mai 2022 ist sich der Bundesrat bewusst, dass Dark Patterns in der Schweiz verwendet werden und ein aktuelles Thema darstellen. Allerdings sehen sie sich nicht gezwungen, etwas dagegen zu unternehmen, da es schon genügend Gesetze gibt, welche die Problematik behandeln.</p><p class=\"fw-bold\">Achtung: Kann Spuren von eigener Meinung enthalten!</p><p>Die Suche nach Gesetzesartikeln geht nicht lange und hinterlässt das Gefühl, dass es doch nicht genügend Rechtsschriften zu diesem Thema gibt.</p><p>Stand 01.01.2024 sind in der Schweiz folgende Arten von Dark Patterns verboten:</p><ul><li>Scarcity: Aus dem Grund, dass nicht über den Warenbestand gelogen werden darf.</li><li>Sneak into Basket & Hidden Cost: Laut dem Bundesgesetz gegen den unlauteren Wettbewerb (UWG) dürfen Kund:innen nicht über den tatsächlichen Wert der Ware getäuscht werden.</li><li>Preselection und verschiedene andere Praktiken rund um Daten (Cookies): Nach dem neuen Datenschutzgesetz muss eine Seite sparsam Daten sammeln. Erweiterte Daten dürfen unter Umständen nach der Einwilligung erhoben werden. Das Gesetz untersagt, dass die Einwilligung durch Voreinstellungen oder andere Formen von Dark Patterns erschlichen werden darf.</li></ul><h2>Europäische Union</h2><p>Die EU kennt gegen Preselection etc. die gleichen Regelungen wie die Schweiz. Die meisten Mitgliedstaaten der EU kennen jeweils eigene Gesetze gegen unlauteren Wettbewerb, diese sind aber in vielen Fällen ähnlich wie dieses der Schweiz. Somit sind Dark Patterns im EU-Raum etwas gleich lasch geregelt wie in der Schweiz. Allerdings erkennen die Verantwortlichen Behörden die Risiken. Aus diesem Grund gibt es verschiedene laufende Projekte dagegen. Ein solches ist der 74-seitige Leitfaden zum Thema, wie Dark Pattern in den sozialen Medien erkannt und umgangen werden können (<a href=\"https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-032022-deceptive-design-patterns-social-media_de\">https://edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-032022-deceptive-design-patterns-social-media_de</a>)</p><h2>Fazit</h2><p>In einem gewissen Rahmen sind sich die Staaten der Problematik bewusst und grenzen zu gewissen Teilen auch die Praktiken ein. Wieso werden dann, zum Teil sogar verbotene, Dark Patterns eingesetzt? Das Problem ist nämlich, dass es nie zu einem Prozess kommt, wenn niemand eine Klage einreicht. Viele Leute wissen gar nicht, dass sie manipuliert werden oder dass sie daran etwas ändern können. Deshalb ist es wichtig, die Menschen zu informieren und Stiftungen wie den Konsumentenschutz bei ihren Prozessen zu unterstützen.</p>",
             "type": "INFO",
-            "fontColor": "#ffffff",
-            "backgroundColor": "#000000"
-        },
-        {
-            "title": "Fifth section",
-            "content": "asdasdasd adasdas a adasdsa",
-            "type": "INFO",
-            "fontColor": "#000000",
-            "backgroundColor": "#ffffff"
+            "fontColor": "#f5f5f5",
+            "backgroundColor": "#121212"
         }
     ]
 }

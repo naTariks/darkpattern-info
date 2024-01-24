@@ -1,10 +1,10 @@
-<div [ngClass]="[innerWidth < 992 ? '': 'vh-100']" [ngStyle]="{'background-color': section.backgroundColor}">
+<div [ngStyle]="{'background-color': section.backgroundColor}">
   <app-slideshow *ngIf="section.patterns; else textTemplate" [patterns]="section.patterns"></app-slideshow>
   <ng-template #textTemplate>
 
     <div id="div-info" class="container p-5">
       <app-navbar [title]="section.title"></app-navbar>
-      <p [ngStyle]="{'color': section.fontColor}" class="text-dark">{{ section.content }}</p>
+      <div [innerHTML]="section.content" [ngStyle]="{'color': section.fontColor}"></div>
     </div>
   </ng-template>
 </div>
