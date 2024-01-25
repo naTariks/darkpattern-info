@@ -1,7 +1,7 @@
 <ng-container *ngIf="pattern">
   <div class="m-2">
     <div class="card-body text-center">
-      <h2 class="card-title fw-bold mb-3 text-secondary">{{ pattern.patternName }}</h2>
+      <h3 class="card-title fw-bold mb-3 text-secondary">{{ pattern.patternName }}</h3>
       <p [innerHTML]="pattern.shortDescription" class="card-text mb-4 fw-bold"></p>
       <a class="btn btn-accent fw-bold" (click)="open()">CLICK ME</a>
     </div>
